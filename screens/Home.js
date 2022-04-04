@@ -9,9 +9,7 @@ import RestaurantItems, { localRestaurants } from '../components/home/Restaurant
 import { Divider } from 'react-native-elements'
 import BottomTabs from '../components/home/BottomTabs'
 
-const YELP_API_KEY =
-  "_J6rzr1D8mCM6oTKqOPejleZojxOD7dPhGr3JkEXpytRWP-RVsLo6jtU6AyM8KVeQq3bnQi72helIJ_MVdcTPmRkFrRE-c8-Q0GUpzVfLbLskWNLc1M-6VLakXdGYnYx";
-
+const YELP_API_KEY = "A9s-wyxiwHfssoxC8rLo4rUMg_HWEiP07sPIwfUuj0mpMH_nebjxZI8rpDi0QHRXxKgdRJ1En9oNo78px-11s85-e4INgfW5FX9nbQMFKt9eBjPJegRrkZnVRS9HYnYx";
 export default function Home({navigation}) {
   const [restaurantData, setRestaurantData] = useState(localRestaurants);
   const [city, setCity] = useState("San Francisco");
